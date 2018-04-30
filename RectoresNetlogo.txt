@@ -1,12 +1,14 @@
-;
+;tortugas
 
-breed [candidatos]
-breed [miembrofacultad-1]
-breed [miembrofacultad-2]
-breed [miembrofacultad-3]
-breed [administrativos]
+breed [candclass candidatos]
+breed [fac1class miembrofacultad-1]
+breed [fac2class miembrofacultad-2]
+breed [fac3class miembrofacultad-3]
+breed [adm1class administrativos-1]
+breed [adm1class administrativos-2]
+breed [adm1class administrativos-3]
 
-; Parámetros 
+;Parámetros 
 
 ideologia-rector
 ideologia-facultad1
@@ -16,7 +18,7 @@ ideologia-facultad3
 
 to setup
   clear-all
-  create-turtles 10
+;aqui va lo que hay al principio  
   reset-ticks 
 end
 
