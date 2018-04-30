@@ -1,0 +1,24 @@
+;
+
+breed [candidatos]
+breed [miembrofacultad-1]
+breed [miembrofacultad-2]
+breed [miembrofacultad-3]
+breed [administrativos]
+
+; Parámetros 
+
+ideologia-rector
+ideologia-facultad1
+ideologia-facultad2
+ideologia-facultad3
+
+
+to setup
+  clear-all
+  create-turtles 10
+  reset-ticks 
+end
+
+to go
+  
