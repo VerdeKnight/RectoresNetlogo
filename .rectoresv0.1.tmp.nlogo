@@ -1,7 +1,7 @@
 ;Variables para todas las tortugas de cantidad inicial de votantes
-
+globals
 [
-  cantfac1
+
   cantfac2
   cantfac3
   cantadm1
@@ -37,6 +37,9 @@ to setup
   clear-all
 
   create-candclass 3
+  ask candclass [move-to one-of patches]
+
+
   create-fac1class cantfac1
   ask fac1class [set color green set shape "face neutral"]
   ask fac1class [move-to one-of patches]
@@ -48,11 +51,17 @@ to go
 ; let
   tick
 end
+
+to finalizar
+
+;mueran todos
+  stop
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
-228
+227
 10
-665
+664
 448
 -1
 -1
@@ -192,6 +201,17 @@ NIL
 NIL
 NIL
 1
+
+INPUTBOX
+152
+104
+307
+164
+cantfac1
+1.0
+1
+0
+Number
 
 @#$#@#$#@
 ## WHAT IS IT?
