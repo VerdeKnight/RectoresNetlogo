@@ -62,10 +62,10 @@ ticks
 30.0
 
 BUTTON
-6
-11
-70
-44
+4
+10
+68
+43
 Setup
 setup\n
 NIL
@@ -79,10 +79,10 @@ NIL
 1
 
 BUTTON
-6
-52
-122
-85
+4
+45
+120
+78
 Iniciar votación
 go
 NIL
@@ -96,10 +96,10 @@ NIL
 1
 
 MONITOR
-4
-197
-125
-242
+1
+180
+122
+225
 contador facultad 1
 count fac1class
 17
@@ -107,10 +107,10 @@ count fac1class
 11
 
 MONITOR
-4
-245
-125
-290
+1
+226
+122
+271
 contador facultad 2
 count fac2class
 17
@@ -118,10 +118,10 @@ count fac2class
 11
 
 MONITOR
-4
-295
-125
-340
+1
+273
+122
+318
 contador facultad 3
 count fac3class
 17
@@ -129,10 +129,10 @@ count fac3class
 11
 
 MONITOR
-4
-342
-160
-387
+1
+320
+157
+365
 contador administrativos1
 count adm1class
 17
@@ -140,15 +140,43 @@ count adm1class
 11
 
 MONITOR
-5
-389
-161
-434
+2
+367
+158
+412
 contador administrativos2
 count adm2class
 17
 1
 11
+
+MONITOR
+2
+413
+158
+458
+contador administrativos3
+count adm3class
+17
+1
+11
+
+BUTTON
+3
+141
+130
+174
+Finalizar votación
+finalizar
+NIL
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
 
 @#$#@#$#@
 ## WHAT IS IT?

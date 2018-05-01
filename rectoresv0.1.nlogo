@@ -35,9 +35,9 @@ to go
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-210
+228
 10
-647
+665
 448
 -1
 -1
@@ -62,10 +62,10 @@ ticks
 30.0
 
 BUTTON
-6
-11
-70
-44
+4
+10
+68
+43
 Setup
 setup\n
 NIL
@@ -79,10 +79,10 @@ NIL
 1
 
 BUTTON
-6
-52
-122
-85
+4
+45
+120
+78
 Iniciar votación
 go
 NIL
@@ -133,7 +133,7 @@ MONITOR
 320
 157
 365
-contador administrativos1
+contador admin 1
 count adm1class
 17
 1
@@ -144,7 +144,7 @@ MONITOR
 367
 158
 412
-contador administrativos2
+contador admin 2
 count adm2class
 17
 1
@@ -155,11 +155,28 @@ MONITOR
 413
 158
 458
-contador administrativos3
+contador admin 3
 count adm3class
 17
 1
 11
+
+BUTTON
+3
+141
+130
+174
+Finalizar votación
+finalizar
+NIL
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
 
 @#$#@#$#@
 ## WHAT IS IT?
