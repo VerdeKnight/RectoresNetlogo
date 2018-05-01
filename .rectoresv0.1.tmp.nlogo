@@ -96,34 +96,12 @@ NIL
 1
 
 MONITOR
-4
-197
-125
-242
+36
+182
+157
+227
 contador facultad 1
 count fac1class
-17
-1
-11
-
-MONITOR
-4
-245
-125
-290
-contador facultad 2
-count fac2class
-17
-1
-11
-
-MONITOR
-4
-295
-125
-340
-contador facultad 3
-count fac3class
 17
 1
 11
