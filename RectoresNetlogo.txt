@@ -1,3 +1,8 @@
+patches-own
+[
+ variable1 
+]
+
 ;tortugas
 
 breed [candclass candidatos]
@@ -5,15 +10,17 @@ breed [fac1class miembrofacultad-1]
 breed [fac2class miembrofacultad-2]
 breed [fac3class miembrofacultad-3]
 breed [adm1class administrativos-1]
-breed [adm1class administrativos-2]
-breed [adm1class administrativos-3]
+breed [adm2class administrativos-2]
+breed [adm3class administrativos-3]
 
-;Parámetros 
+;Parametros 
 
-ideologia-rector
-ideologia-facultad1
-ideologia-facultad2
-ideologia-facultad3
+fac1class-own [ideologia]
+fac2class-own [ideologia]
+fac3class-own [ideologia]
+adm1class-own [ideologia]
+adm2class-own [ideologia]
+adm3class-own [ideologia]
 
 
 to setup
@@ -23,4 +30,6 @@ to setup
 end
 
 to go
+; let
   
+end
