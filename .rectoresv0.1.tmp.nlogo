@@ -1,3 +1,13 @@
+;Variables para todas las tortugas de cantidad inicial de votantes
+
+[
+  cantfac1
+  cantfac2
+  cantfac3
+  cantadm1
+  cantadm2
+  cantadm3
+]
 patches-own
 [
  variable1
@@ -25,6 +35,11 @@ adm3class-own [ideologia]
 
 to setup
   clear-all
+
+  create-candclass 3
+  create-fac1class cantfac1
+  ask fac1class [set color green set shape "face neutral"]
+  ask fac1class [move-to one-of patches]
 ;aqui va lo que hay al principio
   reset-ticks
 end
@@ -35,9 +50,9 @@ to go
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-210
+228
 10
-647
+665
 448
 -1
 -1
@@ -133,7 +148,7 @@ MONITOR
 320
 157
 365
-contador administrativos1
+contador admin 1
 count adm1class
 17
 1
@@ -144,7 +159,7 @@ MONITOR
 367
 158
 412
-contador administrativos2
+contador admin 2
 count adm2class
 17
 1
@@ -155,7 +170,7 @@ MONITOR
 413
 158
 458
-contador administrativos3
+contador admin 3
 count adm3class
 17
 1
